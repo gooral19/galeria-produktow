@@ -19,7 +19,7 @@ section {
 
 .picture {
     width: 22%;
-    height: 45vh;
+    height: 40vh;
     display: inline-block;
     transition: all linear 1s;
     margin-top: 5%;
@@ -55,9 +55,6 @@ div#p4 {
     opacity: 0;
     transition: all ease-out 0.3s;
     position: relative;
-    display:flex;
-    justify-content: center;
-    align-items:center;
 
 }
 
@@ -76,5 +73,19 @@ div#p4 {
     width: 30%;
     height: 30%;
     font-size: 3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: green;
 }
 
